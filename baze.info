@@ -1,0 +1,22 @@
+name         = Baze
+description  = Standaard theme voor Drupal
+
+core         = 7.x
+engine       = phptemplate
+
+; suppress use of core stylesheets
+stylesheets[all][] = system.menus.css
+stylesheets[all][] = system.messages.css
+stylesheets[all][] = system.theme.css
+
+; enable use of Baze stylesheets
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/normalize.css
+
+; include use of Baze defined JavaScripts
+scripts[] = js/script.js
+
+; define regions
+regions[main_menu]    = main menu
+regions[content]      = content
+regions[header]       = header

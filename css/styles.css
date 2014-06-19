@@ -1,0 +1,74 @@
+/* define here css rules to be used in the Baze theme*/
+
+#page-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  background-color: black;
+  opacity: 0.8;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+
+#header-wrapper p{
+  margin:0 auto;
+}
+
+#primary-links {
+  margin: 0 auto;
+  width: 700px;
+}
+#primary-links li {
+  display: inline;
+  padding: 0;
+}
+ul.menu {
+  margin: 0px ;
+  padding: 0;
+  display: inline-block;
+}
+#primary-links a:link, #primary-links a:visited
+{
+  width: 6em;
+  display:inline-block;
+  font-weight: bold;
+  color: black;
+  background-color: #660033;
+  text-align: center;
+  padding: 0.2em 0 0.2em 0;
+  margin: auto;
+  text-decoration: none;
+  font-size: 125%;
+  font-variant: small-caps;
+}
+#primary-links a:hover, #primary-links a:active
+{
+  background-color: gray;
+}
+
+#main-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  background-color: gray;
+  opacity: 0.8;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+img {
+  margin: auto;
+  float: center;
+  display: block;
+  margin: 0 auto;
+}
+body {
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+}
+
+/* define background image for each page */
+html { 
+    background: url(http://iankesteleyn.be/ben/clavcloseup2.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+        -moz-background-size: cover;
+          -o-background-size: cover;
+            background-size: cover;
+          })
